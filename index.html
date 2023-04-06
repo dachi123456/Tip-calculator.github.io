@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Tip calculator app</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+      <img src="./images/logo.png" alt="" class="logo">
+    
+
+    <section>
+      <div class="gridy">
+      <div class="bill">
+        <form action="" id="form-bill">
+          <label for="">bill</label>
+          <input type="text" name="" placeholder="0.00" id="bill-input" >
+        </form>
+      </div>
+
+      <div class="select">
+        <label for="">Select Tip %</label><br>
+        <button class="percent 5" id="5">5%</button>
+        <button class="percent 10" id="10">10%</button>
+        <button class="percent 15" id="15">15%</button>
+      <button class="percent 25" id="25">25%</button>
+      <button class="percent 50" id="50">50%</button>
+      <input type="text" placeholder="  custom" id="custom">
+        
+      </div>
+      <div class="num-of-people">
+        <label for="">Number of People</label>
+        <span id="error">can't be zero</span>
+        <input type="text" name="" id="people-input" placeholder="0">
+      </div>
+      </div>
+
+      <div class="output">
+        <span class="whole-output">
+          <span class="scripts"><h2>Tip Amount</h2>
+          <p>/person</p>
+          </span>
+          <h3 id="output-number1">$0.00</h3>
+        </span>
+        <span class="whole-output">
+          <span class="scripts"><h2>Total</h2>
+          <p>/person</p>
+          </span>
+          <h3 id="output-number2" >$0.00</h3>
+        </span>
+        <button id="reset">reset</button>
+      </div>
+
+
+
+
+
+
+      
+
+    </section>
+
+  </main>
+
+
+
+
+
+
+
+
+
+  <script src="./app.js"></script>
+</body>
+</html>
