@@ -1,6 +1,6 @@
- #Tip-calculator :
- 
- #Created with:
+#Tip-calculator :
+
+#Created with:
  
   Javascript
 
@@ -14,7 +14,9 @@
 
   Mobile-first workflow
   
+  
   #live site:
+  
   url_https://dachi123456.github.io/Tip-calculator.github.io/
   
   #Author-profiles:
